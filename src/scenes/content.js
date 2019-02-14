@@ -16,7 +16,6 @@ var gdata =
       name:"person",
       type:TYPE_RESOURCE,
       stock:1,
-      active:1,
       draws:[
         { group:"food", qty:1 },
       ],
@@ -42,7 +41,6 @@ var gdata =
     {
       name:"farm",
       type:TYPE_CONSTRUCTION,
-      active:1,
       costs:[
         { group:"money", qty:10 },
       ],
@@ -85,7 +83,6 @@ var gdata =
     {
       name:"livestock",
       type:TYPE_CONSTRUCTION,
-      active:1,
       costs:[
         { group:"money", qty:10 },
       ],
